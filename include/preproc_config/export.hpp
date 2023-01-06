@@ -25,7 +25,7 @@
 #ifndef PREPROC_CONFIG_EXPORT_HPP
 #define PREPROC_CONFIG_EXPORT_HPP
 
-#ifdef _WIN32 || defined __CYGWIN__
+#if defined _WIN32 || defined __CYGWIN__
 #  ifdef WINDOWS_EXPORT_SYMBOLS
 #    ifdef __GNUC__
 #      define API_EXPORT __attribute__((dllexport))

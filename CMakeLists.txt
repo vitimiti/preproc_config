@@ -31,7 +31,7 @@ option(WINDOWS_EXPORT_SYMBOLS "Whether to export symbols on Windows or not" OFF)
 
 project(
   PREPROC_CONFIG
-  VERSION 1.0.0
+  VERSION 1.0.1
   DESCRIPTION "Common pre-processor definitions"
   HOMEPAGE_URL "https://github.com/vitimiti/preproc_config"
   LANGUAGES C CXX)
