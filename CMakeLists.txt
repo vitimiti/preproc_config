@@ -49,7 +49,7 @@ if(WIN32 AND WINDOWS_EXPORT_SYMBOLS)
 endif()
 
 include(GNUInstallDirs)
-if(PREPROC_INSTALL_LIBRARY)
+if(PREPROC_CONFIG_INSTALL_LIBRARY)
   message(TRACE
           "Configuring installation system with prefix ${CMAKE_INSTALL_PREFIX}")
 
