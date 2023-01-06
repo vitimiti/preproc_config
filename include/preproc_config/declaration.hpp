@@ -26,19 +26,19 @@
 #define PREPROC_CONFIG_DECLARATION_HPP
 
 #if defined _WIN32 || defined __CYGWIN__
-#  define DECLRATION_C_DECL      __cdecl
-#  define DECLRATION_CLR_CALL    __clrcall
-#  define DECLRATION_STD_CALL    __stdcall
-#  define DECLRATION_FAST_CALL   __fastcall
-#  define DECLRATION_THIS_CALL   __thiscall
-#  define DECLRATION_VECTOR_CALL __vectorcall
+#  define DECLARATION_C_DECL      __cdecl
+#  define DECLARATION_CLR_CALL    __clrcall
+#  define DECLARATION_STD_CALL    __stdcall
+#  define DECLARATION_FAST_CALL   __fastcall
+#  define DECLARATION_THIS_CALL   __thiscall
+#  define DECLARATION_VECTOR_CALL __vectorcall
 #else // _WIN32 || __CYGWIN__
-#  define DECLRATION_C_DECL
-#  define DECLRATION_CLR_CALL
-#  define DECLRATION_STD_CALL
-#  define DECLRATION_FAST_CALL
-#  define DECLRATION_THIS_CALL
-#  define DECLRATION_VECTOR_CALL
+#  define DECLARATION_C_DECL
+#  define DECLARATION_CLR_CALL
+#  define DECLARATION_STD_CALL
+#  define DECLARATION_FAST_CALL
+#  define DECLARATION_THIS_CALL
+#  define DECLARATION_VECTOR_CALL
 #endif // _WIN32 || __CYGWIN__
 
 #endif // PREPROC_CONFIG_DECLARATION_HPP
