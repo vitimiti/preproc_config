@@ -26,19 +26,19 @@
 #define PREPROC_CONFIG_DECLARATION_HPP
 
 #if defined _WIN32 || defined __CYGWIN__
-#  define FAT_POTATO_SOFT_C_DECL      __cdecl
-#  define FAT_POTATO_SOFT_CLR_CALL    __clrcall
-#  define FAT_POTATO_SOFT_STD_CALL    __stdcall
-#  define FAT_POTATO_SOFT_FAST_CALL   __fastcall
-#  define FAT_POTATO_SOFT_THIS_CALL   __thiscall
-#  define FAT_POTATO_SOFT_VECTOR_CALL __vectorcall
+#  define DECLRATION_C_DECL      __cdecl
+#  define DECLRATION_CLR_CALL    __clrcall
+#  define DECLRATION_STD_CALL    __stdcall
+#  define DECLRATION_FAST_CALL   __fastcall
+#  define DECLRATION_THIS_CALL   __thiscall
+#  define DECLRATION_VECTOR_CALL __vectorcall
 #else // _WIN32 || __CYGWIN__
-#  define FAT_POTATO_SOFT_C_DECL
-#  define FAT_POTATO_SOFT_CLR_CALL
-#  define FAT_POTATO_SOFT_STD_CALL
-#  define FAT_POTATO_SOFT_FAST_CALL
-#  define FAT_POTATO_SOFT_THIS_CALL
-#  define FAT_POTATO_SOFT_VECTOR_CALL
+#  define DECLRATION_C_DECL
+#  define DECLRATION_CLR_CALL
+#  define DECLRATION_STD_CALL
+#  define DECLRATION_FAST_CALL
+#  define DECLRATION_THIS_CALL
+#  define DECLRATION_VECTOR_CALL
 #endif // _WIN32 || __CYGWIN__
 
 #endif // PREPROC_CONFIG_DECLARATION_HPP
